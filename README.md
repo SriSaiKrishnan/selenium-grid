@@ -18,4 +18,4 @@ Nodes are the Selenium instances that will execute the tests that you loaded on 
 java -jar selenium-server-standalone-3.8.1.jar -role hub
 
 ~~~ for Node, use this command:
-java -Dwebdriver.chrome.driver="/Users/NaveenKhunteta/Downloads/chromedriver" -jar selenium-server-standalone-3.8.1.jar -role node -hub http://192.168.0.102:4444/grid/register
+java -Dwebdriver.chrome.driver="/Users/sv/Downloads/chromedriver" -jar selenium-server-standalone-3.8.1.jar -role node -hub http://192.168.0.102:4444/grid/register
